@@ -15,6 +15,7 @@ In the nextflow.congfig file there are some parameters to set:
         samples = "*" //string with represents a common pattern for bam files, for example "*.bam*"
         ensamples = "*" //string with represents a common pattern for bam files, for example "*.vcf*"
         [...]
+
 It's important that files from "directories" doesn't have the same name because of Survivor.
 
 Also, in the parameter field memory quantity should be set, for example '24GB':
