@@ -115,7 +115,6 @@ process survivor_ensemble {
 		rm "file.txt"
 	fi
 	
-	i=0
 	for file in ${files}; do
 		if [[ \$file == *.vcf.gz ]]; then
 			zcat \$file > "\$file.vcf"
